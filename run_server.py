@@ -22,4 +22,4 @@ if __name__ == "__main__":
 
     print('Database is available - Starting Django Server')
     ManagementUtility(['django', 'migrate']).execute()
-    ManagementUtility(['staticfiles', 'runserver', '0.0.0.0:8000']).execute()
+    ManagementUtility(['staticfiles', 'runserver', '0.0.0.0:8001']).execute()

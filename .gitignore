@@ -61,3 +61,7 @@ target/
 *.sublime-*
 .idea
 .vscode
+
+
+# Database support
+*.sql

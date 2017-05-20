@@ -32,3 +32,7 @@ for route, viewset in routes.items():
     router.register(route, viewset, base_name=route)
 
 urlpatterns += router.urls
+
+urlpatterns = [
+    url(r'axelrod/api/', include(urlpatterns)),
+]
